@@ -1,4 +1,4 @@
-# Objects&Classes
+# Javascript: Objects & Classes
 
 
 - **Class**: The recipe. Defines the characteristics of the object. It is a template definition of variables and methods of an object.
@@ -32,7 +32,7 @@ var me = {
 
 
 //Saving objects in a new var with
-// ObjectName.PropertyName (="dot-Notation")
+//ObjectName.PropertyName (="dot-Notation")
 
 var LisasAge = me.age;
 //OR
@@ -136,4 +136,3 @@ Chesirecats.prototype = new Cat();
 
 
 ```
-

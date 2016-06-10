@@ -1,5 +1,13 @@
 # Terminal
 
+Setting up a web server with terminal (necessary eg when you work with d3 and load external CSVs):
+- navigate to folder
+- python -m SimpleHTTPServer 8888 &.
+
+
+<br>
+### Terminal expressions
+
 x and y are files like mountains.txt<br>
 dir = directory
 
@@ -40,22 +48,22 @@ dir = directory
 | `grep yeah x` | searches and show alle lines with “yeah” in x  |
 | `grep -l yeah x` | searches and show alle lines with “yeah” in x, not case sensitive |
 | `grep -R yeah /home/…` | searches for “yeah” in a whole dir |
-| `curl -O https://bootstrap.pypa.io/get-pip.py`  | download URL file | 
+| `curl -O https://bootstrap.pypa.io/get-pip.py`  | download URL file |
 | `___ !! --> eg sudo !!` | run same command with prefix |
 | `pbpaste` | paste stuff in terminal |
 | `pbpaste > lisa.txt` | paste stuff in new file |
 | `echo "hi dan" > lisa.txt` | type "hi dan again" in lisa.txt |
 | `echo "hi dan again" >> lisa.tx` | type "hi dan again" in lisa.txt, but ADD it to the stuff that's there already |
 | `man pbcopy` | manual of pbcopy; press "q" to get out of that |
-| `cat lisa.txt | pbcopy` | the pipe means: take the output from the left side and take it as an input for the right side of the pipe. eg: take content of lisa.txt and copy it |
+| `cat lisa.txt [pipe symbol] pbcopy` | the pipe means: take the output from the left side and take it as an input for the right side of the pipe. eg: take content of lisa.txt and copy it |
 | `git clone URL` | clones it |
 | `then cat readme` | open readme in terminal, follow instructions from there)
 | `git log` | get history of commit messags |
 | `vi intro.html` | editor IN the terminal whaaaaaaaat |
 | `git diff intro.html` | see changes in file |
 | `git checkout` | delete all changes since the last commit |
-| `cat lisa.txt | grep data` | |
-| `cat lisa.txt | grep data > wow.txt` | |
+| `cat lisa.txt` | grep data |
+| `cat lisa.txt` | grep data > wow.txt` | |
 
 
 

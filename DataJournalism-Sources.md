@@ -8,7 +8,7 @@
 - Search Engines: http://data.worldbank.org/ / http://data.un.org/ / https://datamarket.com/
 - Wiki data: http://www.freebase.com/
 
-**Data Repositories*
+**Data Repositories**
 - re3data.org
 - DataBib
 - DataCite

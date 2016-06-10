@@ -5,7 +5,7 @@ jQuery Cheatsheet: http://overapi.com/jquery/
 <br>
 ## The DOM
 
-= Document Object Model.
+**= Document Object Model**.
 The content from the HTML file transfers slowly into the DOM every time a page is loading.
 The DOM is a tree with nodes. E.g. the "html" node is a child of the "document" node; and in case of: ``<h1>Hallo!</h1>``, the "Hallo!"-text-node is a child of the h1-element-node.
 

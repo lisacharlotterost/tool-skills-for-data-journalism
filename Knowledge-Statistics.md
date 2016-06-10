@@ -1,7 +1,7 @@
 # Statistics
 
 
-###Data Types
+### Data Types
 = Levels of Measurement.
 
 You can go up, but you can't go down (e.g. ratio data can be transformed into ordinal data, but not the other way roudn!)
@@ -17,8 +17,8 @@ You can go up, but you can't go down (e.g. ratio data can be transformed into or
 **Discrete data** = Integer, e.g. people (there can't be a 3,42th person, only a third and a fourth person)<br>
 **Continous data** = Float, e.g. milk liter (there can be a 3.24l of milk, and a 3.25l etc...)
 
-
-###Level of Aggregation
+<br>
+### Level of Aggregation
 
 
 | Level | Example | Explanation |
@@ -41,8 +41,3 @@ You can go up, but you can't go down (e.g. ratio data can be transformed into or
 
 **Aggregation** refers to the process by which data have been collected and summarized in some way or sorted into categories.
 <br><br>
-
-
-
-
-
