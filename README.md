@@ -10,7 +10,6 @@ Cheat sheets for analyzing data and building visualizations with R, dplyr, ggplo
    * [jQuery](data_journalism/jquer.md)
 * [Tools](data_journalism/tools.md)
    * [Mapbox/TileMill](data_journalism/mapbox.md)
-   * [Chrome Developer Tool](data_journalism/chrome_developer_tool.md)
    * [OpenRefine](data_journalism/google_refine.md)
    * [Terminal](data_journalism/terminal.md)
    * [GitHub](data_journalism/github.md)
