@@ -53,6 +53,9 @@ d %>%
   group_by(month, day) %>%
   top_n(3, dep_delay)
 
+# filter with grepl
+d %>% filter(grepl(“US”,country))
+
 ```
 
 ### select

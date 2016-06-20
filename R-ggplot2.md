@@ -33,3 +33,7 @@ d %>%
   ggvis(~yeah) %>%
   layer_histograms(width= input_slider(1, 50, step = 5))
 ```
+
+
+# This removes all legends
+bp + theme(legend.position="none")

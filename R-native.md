@@ -26,9 +26,14 @@ gdp <- read.table("gdp.txt", sep="  ", header=TRUE)
 #Merging
 d <- merge(x = gdp, y = piracy)
 
+# merge two data frames by ID
+total <- merge(gdp,piracy,by="ID")
+# http://www.statmethods.net/management/merging.html
+
 #change data format
 as.integer(d$gdp)
 ```
+
 
 ### Understanding the data
 ```r
