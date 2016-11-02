@@ -1,11 +1,3 @@
-# Terminal
-
-Setting up a web server with terminal (necessary eg when you work with d3 and load external CSVs):
-- navigate to folder
-- python -m SimpleHTTPServer 8888 &.
-
-
-<br>
 ### Terminal expressions
 
 x and y are files like mountains.txt<br>
@@ -63,7 +55,8 @@ dir = directory
 | `git diff intro.html` | see changes in file |
 | `git checkout` | delete all changes since the last commit |
 | `cat lisa.txt` | grep data |
-| `cat lisa.txt` | grep data > wow.txt` | |
+| `cat lisa.txt` | grep data > wow.txt |
+| `for i in *; do grep "data" "$i";done` | search for the word "data" in all files in the folder | 
 
 
 
@@ -75,3 +68,11 @@ dir = directory
 | `*.txt` | all text files |
 | `*` | all files |
 | `m*` | all files starting with "m" |
+
+
+
+## Set up a server
+
+Setting up a web server with terminal (necessary eg when you work with d3 and load external CSVs):
+- navigate to folder
+- python -m SimpleHTTPServer 8888 &.
